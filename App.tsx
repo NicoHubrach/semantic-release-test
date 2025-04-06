@@ -7,6 +7,7 @@ export default function App() {
       <Text>Open up App.tsx to start working on your app!</Text>
       <Text>Bugfix</Text>
       <Text>Version Bump</Text>
+      <Text>Version Bump</Text>
       <StatusBar style="auto" />
     </View>
   );
