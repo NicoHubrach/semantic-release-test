@@ -6,7 +6,7 @@ export default {
     plugins: ["@semantic-release/commit-analyzer", "@semantic-release/release-notes-generator", "@semantic-release/github", [
         "@semantic-release/exec",
         {
-            "publishCmd": "echo ${nextRelease.version} ${branch.name} ${commits.length} ${Date.now()}"
+            "publishCmd": "echo ${{ secrets.FTP_UPLOADURL }}"
         }
     ]],
 };
