@@ -8,6 +8,7 @@ export default function App() {
       <Text>Bugfix</Text>
       <Text>Version Bump</Text>
       <Text>Version Bump</Text>
+      <Text>Version Bump</Text>
       <StatusBar style="auto" />
     </View>
   );
